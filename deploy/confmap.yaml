@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: multitool-maps
+  namespace: kube-config
+data:
+  HTTP_PORT: '81'
+  index.html: |
+    <html>
+    <h1>Test</h1>
+    </html>
